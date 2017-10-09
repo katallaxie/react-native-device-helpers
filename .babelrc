@@ -1,0 +1,8 @@
+{
+    "env": {
+      "development": {
+        "plugins": ["transform-react-jsx-source"]
+      }
+    },
+    "sourceMaps": true
+  }

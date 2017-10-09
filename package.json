@@ -1,32 +1,42 @@
 {
-    "name": "react-native-device-helpers",
-    "version": "0.0.1",
-    "description": "Little helpers for device specific code in React Native Apps.",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/katallaxie/react-native-device-helpers.git"
-    },
-    "keywords": [
-      "react-native",
-      "ios",
-      "android",
-      "iphone",
-      "ipad"
-    ],
-    "author": {
-        "name": "Sebastian Döll",
-        "email": "sebastian@katallaxie.me"
-    },
-    "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/katallaxie/react-native-device-helpers/issues"
-    },
-    "homepage": "https://github.com/katallaxie/react-native-device-helpers#readme",
-    "peerDependencies": {
-      "react-native": ">=0.42.0"
-    }
+  "name": "react-native-device-helpers",
+  "version": "0.0.1",
+  "description": "A library of little helpers for device specific code in your React Native App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katallaxie/react-native-device-helpers.git"
+  },
+  "keywords": [
+    "react-native",
+    "ios",
+    "android",
+    "iphone",
+    "ipad"
+  ],
+  "author": {
+    "name": "Sebastian Döll",
+    "email": "sebastian@katallaxie.me"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/katallaxie/react-native-device-helpers/issues"
+  },
+  "homepage": "https://github.com/katallaxie/react-native-device-helpers#readme",
+  "peerDependencies": {
+    "react-native": ">=0.42.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.8.0",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^7.4.0",
+    "prettier": "^1.7.4",
+    "prettier-eslint": "^8.2.0"
   }
+}
